@@ -65,7 +65,7 @@ describe('Articles', function () {
    * Your Article model should also have a tag field that's an array
    * but when we access it, we should get the string joined by a comma
    *
-   * Look at using getters in your Schema (under Virtuals at http://mongoosejs.com/docs/guide.html)
+   * Look at using getters in your Schema http://mongoosejs.com/docs/api.html#schematype_SchemaType-get
    */
   it('should have a tags field of [] that has a custom getter', function (done) {
     var article = new Article({ title: "Taggy", body: "So Taggy" });
