@@ -24,10 +24,11 @@ The following resources are allowed:
 1. Fork this repository to your own Github user account.
 2. Clone this to your local machine.
 3. `npm install`
-4. You can run `npm test` which will continuously run the test suite upon file updates.
-5. Read through the project structure, you'll be primarily working in `models/article.js` and  `routes/index.js` in that order. 
-6. Start working through the tests in `test/`.  You have to mark them as active (from pending) by changing `xit` to `it`
-7. `git commit` often as you make progress on the tests.
+4. Make sure your MongoDB database is running!
+5. You can run `npm test` which will continuously run the test suite upon file updates.
+6. Read through the project structure, you'll be primarily working in `models/article.js` and  `routes/index.js` in that order. 
+7. Start working through the tests in `test/`.  You have to mark them as active (from pending) by changing `xit` to `it`
+8. `git commit` often as you make progress on the tests.
 
 These tests include [supertest](https://github.com/visionmedia/supertest).
 
