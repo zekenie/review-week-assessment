@@ -33,7 +33,8 @@ The only thing that may be confusing is that you haven't seen integration-testin
 
 ## Submitting
 
-As you complete each answer (or make an update), please commit the changes to the git repository.  To submit your answers, there are two steps:
+As you complete each answer (or make an update), please commit the changes to the git repository.  To submit your answers:
 
-1.  Push your repository back to your own personal fork of `assessment-express-mongoose`
-2.  Notify us via email that your assessment is complete.
+1.  Push your repository back to your own personal fork of `assessment-express-mongoose`.
+2.  Download the zip of your project from Github.
+3.  Email the zip to `instructors@fullstackacademy.com` before the time assigned as the end of the assessment.
