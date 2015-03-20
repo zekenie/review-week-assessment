@@ -8,11 +8,10 @@ Also, we ask that you don't help each other or cheat.  Feel free to use any onli
 
 The following resources are allowed:
 
-* Dash with any docset.  We recommend atleast `JavaScript`
-* Any notes you've taken so far in Evernote/Paper
-* Any code you have in your previous projects
-* learn.fullstackacademy.com (we will provide a local instance that you can use)
-* All the slide decks that we've used in class
+* Any notes you've taken so far.
+* Any code you have in your previous projects.
+* learn.fullstackacademy.com.
+* All the slide decks that we've used in class.
 
 ## Things we're testing
 
@@ -22,10 +21,10 @@ The following resources are allowed:
 
 ## Starting
 
-1. Fork this repository to your own Github user account
-2. Clone this to your local machine
+1. Fork this repository to your own Github user account.
+2. Clone this to your local machine.
 3. `npm install`
-4. You can run `npm test` which will continuously run the test suite upon file updates
+4. You can run `npm test` which will continuously run the test suite upon file updates.
 5. Read through the project structure, you'll be primarily working in `models/article.js` and  `routes/index.js` in that order. 
 6. Start working through the tests in `test/`.  You have to mark them as active (from pending) by changing `xit` to `it`
 7. `git commit` often as you make progress on the tests.

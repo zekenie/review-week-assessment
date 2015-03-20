@@ -4,3 +4,4 @@ config/imager.js
 npm-debug.log
 Makefile
 .DS_Store
+.idea

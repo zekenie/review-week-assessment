@@ -19,6 +19,7 @@ describe('Articles', function () {
     var article = new Article({title: "My Article", body: "Isn't this interesting?"});
     article.save(function(err) {
       article.title.should.equal("My Article");
+      article.body.should.equal("Isn't this interesting?");
       done(err);
     });
   });

@@ -6,12 +6,12 @@ var mongoose = require('mongoose')
   , Article = require('../models/article')
   , agent = request.agent(app);
 
-
-
 /**
+ *
  * Article Route Tests
  *
  * Do these after you finish the Article Model tests
+ *
  */
 describe('Articles Route', function () {
 
@@ -112,6 +112,9 @@ describe('Articles Route', function () {
         .get('/articles/' + article._id)
         .expect(200)
         .expect(function(res) {
+          if (typeof res.body === 'string') {
+            res.body = JSON.parse(res.body);
+          }
           res.body.title.should.equal("Second Article");
         })
         .end(done);
