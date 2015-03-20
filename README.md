@@ -29,7 +29,7 @@ The following resources are allowed:
 6. Start working through the tests in `test/`.  You have to mark them as active (from pending) by changing `xit` to `it`
 7. `git commit` often as you make progress on the tests.
 
-The only thing that may be confusing is that you haven't seen integration-testing before, we're using a library called Supertest that can simulate GET/POST/PUT requests.  It should be pretty obvious once you start reading the tests in the `/test` directory how it works, otherwise check it out at [supertest - github](https://github.com/visionmedia/supertest)
+These tests include [supertest](https://github.com/visionmedia/supertest).
 
 ## Submitting
 
