@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "nodemon ./bin/www",
     "test": "./node_modules/.bin/mocha test/*.spec.js"
   },
   "dependencies": {
@@ -14,9 +13,7 @@
     "mongoose": "~4.0.1"
   },
   "devDependencies": {
-    "supertest": "*",
     "should": "*",
-    "mocha": "*",
-    "nodemon": "*"
+    "mocha": "*"
   }
 }
