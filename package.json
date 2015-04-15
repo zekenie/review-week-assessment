@@ -4,11 +4,14 @@
   "private": true,
   "scripts": {
     "start": "nodemon ./bin/www",
-    "test": "nodemon ./node_modules/.bin/mocha --reporter spec --timeout 500 test/*.test.js"
+    "test": "nodemon ./node_modules/.bin/mocha --reporter spec --timeout 500 test/*.spec.js"
   },
   "dependencies": {
+    "bluebird": "^2.9.24",
     "debug": "~0.7.4",
-    "mongoose": "~3.8.9"
+    "lodash": "^3.6.0",
+    "moment": "^2.10.2",
+    "mongoose": "~4.0.1"
   },
   "devDependencies": {
     "supertest": "*",
