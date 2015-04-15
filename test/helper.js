@@ -16,7 +16,7 @@ exports.dates = {
   tomorrow: function() {
     return this.addDay(1)
   },
-  yesturday: function() {
+  yesterday: function() {
     return this.addDay(-1)
   }
 }
