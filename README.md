@@ -15,27 +15,9 @@ The following resources are allowed:
 
 ## Things we're testing
 
-* Express App Structures 
-* Express Routing and Route Methods
 * Mongoose Model Configuration
 
 ## Starting
 
-1. Fork this repository to your own Github user account.
-2. Clone this to your local machine.
-3. `npm install`
-4. Make sure your MongoDB database is running!
-5. You can run `npm test` which will continuously run the test suite upon file updates.
-6. Read through the project structure, you'll be primarily working in `models/article.js` and  `routes/index.js` in that order. 
-7. Start working through the tests in `test/`.  You have to mark them as active (from pending) by changing `xit` to `it`
-8. `git commit` often as you make progress on the tests.
-
-These tests include [supertest](https://github.com/visionmedia/supertest).
-
-## Submitting
-
-As you complete each answer (or make an update), please commit the changes to the git repository.  To submit your answers:
-
-1.  Push your repository back to your own personal fork of `assessment-express-mongoose`.
-2.  Download the zip of your project from Github.
-3.  Email the zip to `instructors@fullstackacademy.com` before the time assigned as the end of the assessment.
+1. Read through the project models folder
+2. Start working through the tests in `test/`.  You have to mark them as active (from pending) by changing `xit` to `it`

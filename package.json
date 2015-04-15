@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "nodemon ./bin/www",
-    "test": "nodemon ./node_modules/.bin/mocha --reporter spec --timeout 500 test/*.spec.js"
+    "test": "./node_modules/.bin/mocha test/*.spec.js"
   },
   "dependencies": {
     "bluebird": "^2.9.24",
