@@ -45,18 +45,7 @@ TaskSchema.methods.getSiblings = function() {
   }).exec()
 }
 
-
-// ideas:
-// - if all children are complete, task is complete
-// - get children method
-// - get siblings method
-// - validation: task can't be due before its child
-
-// read up on methods/statics
-
 Task = mongoose.model('Task', TaskSchema);
 
 
 module.exports = Task;
-
-
