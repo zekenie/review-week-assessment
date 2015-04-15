@@ -1,6 +1,6 @@
-# Assessment 2 - Express/Mongoose
+# Review Assessment - Mongoose
 
-This is the second assessment of the semester.  We're doing this primarily to help us understand how well you've absorbed.  Don't stress out that we will be using this test to judge you in any way except to understand how we can better help you.
+ We're doing this primarily to help us understand how well you've absorbed.  Don't stress out that we will be using this test to judge you in any way except to understand how we can better help you.
 
 Also, we ask that you don't help each other or cheat.  Feel free to use any online resource but don't copy/paste answers to each other or if you find something similar online.
 
